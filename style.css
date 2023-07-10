@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav bar styles */
+.nav-container {
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.menu-container {
+    display: flex;
+
+}
+
+.items {
+    display: flex;
+    gap: 25px;
+}
+
+.item {
+    list-style: none;
+
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.item a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* header banner section  */
+
+.btn-primary {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btn {
+    padding: 15px 35px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+}
+
+.banner-title {
+    color: white;
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.digital {
+    color: red;
+}
+
+.banner-paragraph {
+    color: rgb(247, 243, 243);
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+/* .banner-container{
+    background-image: url(asset/image/background.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    height: 100vh;
+    background-blend-mode: overlay;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+  } */
+.banner-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.service-container {
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    display: flex;
+    background-position: center;
+    height: 100vh;
+    background-blend-mode: overlay;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.service-title {
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.service-description {
+    color: rgb(228, 223, 223);
+    font-size: 18px;
+    width: 75%;
+    padding: 20px;
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+    gap: 10px;
+    color: white;
+    border-right: 1px solid red;
+}
+
+.author-name {
+    display: flex;
+    align-items: center;
+    color: white;
+    border-right: 1px solid red;
+    gap: 15px;
+
+}
+
+.author-img {
+    border-radius: 80px;
+    width: 70px;
+}
+
+.service-btn {
+    border-radius: 20px;
+    background-color: rgb(255, 246, 246);
+    color: gray;
+}
+
+.box-img {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.service {
+    box-shadow: 10px 10px 12px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    margin-right: 10px;
+}
+
+.service-list {
+    color: rgb(223, 219, 219);
+    padding: 22px;
+    font-size: 18px;
+}
+
+.appointment-container {
+    display: flex;
+    background-color: rgb(255, 50, 50);
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.phone-img {
+    width: 90px;
+}
+
+.call-icon {
+    display: flex;
+    color: white;
+    border-right: 2px solid gray;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.appointment-blog {
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    padding: 20px;
+}
+.blog-container{
+    text-align: center;
+    margin-top: 20px;
+}
+.blog-title{
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+.blog-description{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.blogs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blog {
+    width: 350px;
+    height: 430px;
+    background: white;
+    box-shadow: 6px 6px 9px rgb(77, 75, 75);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.blog-img{
+    width: 350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.blog-1-title{
+    font-size: 22px;
+    color: black;
+    padding: 12px;
+}
+.blog-1-description{
+    font-size: 20px;
+    color: black;
+    padding: 12px;
+}
